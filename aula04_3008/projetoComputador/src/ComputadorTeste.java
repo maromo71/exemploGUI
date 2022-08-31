@@ -5,7 +5,7 @@ public class ComputadorTeste {
         //Definido um computador comp1
         Computador comp1 = new Computador();
 
-        //Definido um computador comp1
+        //Definido um computador comp2
         Computador comp2 = new Computador();
 
         //chamar um metodo auxiliar par ler o objto
