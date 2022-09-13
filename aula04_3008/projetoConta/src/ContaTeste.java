@@ -59,7 +59,8 @@ public class ContaTeste {
         System.out.println("Efetuando o saque da conta...");
         Scanner sc = new Scanner(System.in);
         System.out.println("Informe valor a sacar: ");
-        if(cc.sacar(Double.parseDouble(sc.nextLine()))==1){
+        double vlr = Double.parseDouble(sc.nextLine());
+        if(cc.sacar(vlr)==1){
             System.out.println("Saque efetuado com sucesso");
         }else{
             System.out.println("Sem saldo para saque");
