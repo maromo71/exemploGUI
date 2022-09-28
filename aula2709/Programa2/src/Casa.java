@@ -4,6 +4,11 @@ public class Casa {
     private Janela janela2;
     private Janela janela3;
 
+    public Casa(){
+        this.janela1 = new Janela();
+        this.janela2 = new Janela();
+        this.janela3 = new Janela();
+    }
     public String getCor() {
         return cor;
     }
