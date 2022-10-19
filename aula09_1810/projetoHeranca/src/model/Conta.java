@@ -1,6 +1,6 @@
 package model;
 
-public class Conta {
+public abstract class Conta {
     private int numConta;
     private String nomeCliente;
     private double saldo;
@@ -52,4 +52,6 @@ public class Conta {
                 "Saldo: " + saldo + "\n";
         return resp;
     }
+
+
 }
